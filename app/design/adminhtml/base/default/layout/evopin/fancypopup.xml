@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <fancypopup_adminhtml_fancypopup_index>
+        <reference name="content">
+            <block type="fancypopup/adminhtml_fancypopup" name="fancypopup" />
+        </reference>
+    </fancypopup_adminhtml_fancypopup_index>
+</layout>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    	<reference name="head">
+    		<action method="addCss" ifconfig="fancypopup/general/active"><stylesheet>evopin/fancypopup/css/component.css</stylesheet></action>
+            <action method="addCss" ifconfig="fancypopup/general/active"><stylesheet>evopin/fancypopup/css/style.css</stylesheet></action>
+            <action method="addItem" ifconfig="fancypopup/general/jquery"><type>skin_js</type><file>evopin/fancypopup/js/jquery-2.1.0.min.js</file></action>
+            <action method="addItem" ifconfig="fancypopup/general/jquery"><type>skin_js</type><file>evopin/fancypopup/js/jquery-noConflict.js</file></action>
+            <action method="addItem" ifconfig="fancypopup/general/active"><type>skin_js</type><file>evopin/fancypopup/js/fancypopup.js</file></action>
+            <action method="addItem" ifconfig="fancypopup/general/active"><type>skin_js</type><file>evopin/fancypopup/js/script.js</file></action>
+		</reference>
+		<reference name="after_body_start">
+			<block type="fancypopup/fancypopup" name="fancypopup" as="fancypopup" template="evopin/fancypopup/fancypopup.phtml" />
+		</reference>
+    </default>     
+</layout>
+
+
