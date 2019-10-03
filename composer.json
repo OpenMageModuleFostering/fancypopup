@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/FancyPopup",
+    "name": "OpenMageModuleFostering\/FancyPopup",
     "type": "magento-module",
     "license": "MIT",
     "homepage": "",
     "description": "FancyPopup first release version 0.0.1",
     "authors": [
-    {
-        "name": "EvoPin",
-        "email": "evopin@gmail.com"
-    }
-],
+        {
+            "name": "EvoPin",
+            "email": "evopin@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
